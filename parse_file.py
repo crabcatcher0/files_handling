@@ -1,6 +1,6 @@
 import csv
 
-def toread(col_index):
+def toread():
     print("*** Welcome ***")
     print("Please Choose:\n[1].Customer Id\n[2].First Name\n[3].Last Name\n[4].Company\n[5].City\n[6].Country\n[7].Phone 1\n[8].Phone 2\n[9].Email\n[10].Subscription Date\n[11].Website")
     col_index = int(input("Please choose the number from above."))
@@ -13,5 +13,5 @@ def toread(col_index):
 
 
 
-ram = toread(1)
+ram = toread()
 print(ram)
