@@ -1,4 +1,4 @@
-from .parse_file import toread
-
+from parse_file import filemenu
 if __name__ == "__main__":
-    toread()
+    filemenu()
+    
